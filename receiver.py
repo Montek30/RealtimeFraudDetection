@@ -17,6 +17,7 @@ consumer = KafkaConsumer('fifth_topic_2',group_id='my-tenth-application',bootstr
 
 print("Successfully created the kafka consumer")
 
+
 i=0
 for msg in consumer:
    	if i==0:
