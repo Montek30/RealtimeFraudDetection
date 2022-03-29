@@ -4,7 +4,7 @@ from getpass         import getpass
 from smtplib         import SMTP_SSL
 
 
-login, password = 'monteks764@gmail.com', "heyhey123@H"
+login, password = 'monteks764@gmail.com', ""
 recipients = ["monteksingh30@gmail.com"]
 
 # create message

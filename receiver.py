@@ -12,7 +12,7 @@ from smtplib         import SMTP_SSL
 
 
 def send_mail(to_email):
-	login, password = 'monteks764@gmail.com', "heyhey123@H"
+	login, password = 'monteks764@gmail.com', ""
 	recipients = [to_email]
 
 	msg = MIMEText('Alert! Fraudulent Transaction has been detected from your carf', 'plain', 'utf-8')
@@ -92,7 +92,7 @@ for msg in consumer:
    	df.select("Class").show()
    	print("-----------------")
 
-   	
+
    	i += 1
 
 
