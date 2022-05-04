@@ -1,0 +1,35 @@
+brokers = 1, partitions = 1, producer = 1, consumers = 1 
+
+(without prediction)
+total time = 10 sec
+total msgs sent from producer = 3995
+total msgs consumer 1 =  3995
+
+
+(with prediction)
+total time = 10 sec
+total msgs sent from producer = 3995
+total msgs consumer 1 =  4
+
+
+------------------------------------------------------------------
+
+
+
+brokers = 1, partitions = 2, producer = 1, consumers = 2 
+
+(without prediction)
+total time = 31 sec
+total msgs sent from producer = 19936
+total msgs consumer 1 =  9969
+total msgs consumer 2 =  9967
+
+
+(with prediction)
+total time = 20 sec
+total msgs sent from producer = 7800
+total msgs consumer 1 =  8
+total msgs consumer 2 =  9
+
+
+------------------------------------------------------------------
